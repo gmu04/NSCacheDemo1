@@ -22,4 +22,4 @@ I think Cache class which is a wrapper for NSCache type do not cache permanently
 So, my Cache class does not have permanent (file-based) caching.
 
 
-Happy Coding.
+Happy coding. 🐝
