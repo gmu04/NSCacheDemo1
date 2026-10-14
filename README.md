@@ -11,7 +11,7 @@ In this demo, I have added the builder pattern to Cache class to make it more in
 
 
 **Notes:**
-Permanent caching is necessary for offline-first, or caching big data scenarios. We can also use SQLite (CoreData/Swift Data).
+Permanent caching is necessary for offline-first, or caching big data scenarios. We can also use SQLite DB instead of file system (with CoreData or Swift Data).
 
 I think Cache class which is a wrapper for NSCache type do not cache permanently for two reasons:
    1. "Caching" sounds like a temporary cache,
