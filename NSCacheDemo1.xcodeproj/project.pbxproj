@@ -13,6 +13,7 @@
 		F7F987EC307F75A1006592B5 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F987EB307F75A1006592B5 /* Cache.swift */; };
 		F7F987EF307F7E4A006592B5 /* Cache + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F987EE307F7E4A006592B5 /* Cache + ext.swift */; };
 		F7F98803307F8A66006592B5 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F98802307F8A66006592B5 /* Article.swift */; };
+		F7F98807307F8B69006592B5 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F98806307F8B69006592B5 /* DownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		F7F987EE307F7E4A006592B5 /* Cache + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cache + ext.swift"; sourceTree = "<group>"; };
 		F7F987F6307F895E006592B5 /* NSCacheDemo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSCacheDemo1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F98802307F8A66006592B5 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		F7F98806307F8B69006592B5 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -109,6 +111,7 @@
 			children = (
 				F7F987EB307F75A1006592B5 /* Cache.swift */,
 				F7F987EE307F7E4A006592B5 /* Cache + ext.swift */,
+				F7F98806307F8B69006592B5 /* DownloadManager.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			files = (
 				F7F987EF307F7E4A006592B5 /* Cache + ext.swift in Sources */,
+				F7F98807307F8B69006592B5 /* DownloadManager.swift in Sources */,
 				F7F987E6307F7568006592B5 /* ContentView.swift in Sources */,
 				F7F987EC307F75A1006592B5 /* Cache.swift in Sources */,
 				F7F987E7307F7568006592B5 /* NSCacheDemo1App.swift in Sources */,
