@@ -16,7 +16,7 @@ Permanent caching is necessary for offline-first, or caching big data scenarios.
 I think Cache class which is a wrapper for NSCache type do not cache permanently for two reasons:
    1. "Caching" sounds like a temporary cache,
    2. Based on SOLID.1 (single responsibility), permanent caching needs to be in another manager class.
-      Once you put some method for it, you need to handle other edge cases (ex:how to manage, when to delete, etc.) which temporary caching does not care about them at all.
+      Once you put some method for it, you need to handle other cases (ex:how to manage, when to delete, etc.) which temporary caching does not care about them at all.
       Besides, listening to memory warnings is not enough, you need to observe file-system events.
    
 So, my Cache class does not have permanent (file-based) caching.
