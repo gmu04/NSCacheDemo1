@@ -12,7 +12,18 @@
 		F7F987E7307F7568006592B5 /* NSCacheDemo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F987E3307F7568006592B5 /* NSCacheDemo1App.swift */; };
 		F7F987EC307F75A1006592B5 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F987EB307F75A1006592B5 /* Cache.swift */; };
 		F7F987EF307F7E4A006592B5 /* Cache + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F987EE307F7E4A006592B5 /* Cache + ext.swift */; };
+		F7F98803307F8A66006592B5 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F98802307F8A66006592B5 /* Article.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7F987FA307F895E006592B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7F987CB307F755B006592B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F987D2307F755B006592B5;
+			remoteInfo = NSCacheDemo1;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F7F987D3307F755B006592B5 /* NSCacheDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSCacheDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,10 +32,25 @@
 		F7F987E3307F7568006592B5 /* NSCacheDemo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCacheDemo1App.swift; sourceTree = "<group>"; };
 		F7F987EB307F75A1006592B5 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		F7F987EE307F7E4A006592B5 /* Cache + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cache + ext.swift"; sourceTree = "<group>"; };
+		F7F987F6307F895E006592B5 /* NSCacheDemo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSCacheDemo1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F98802307F8A66006592B5 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F7F987F7307F895E006592B5 /* NSCacheDemo1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NSCacheDemo1Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F7F987D0307F755B006592B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F7F987F3307F895E006592B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -36,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				F7F987E4307F7568006592B5 /* NSCacheDemo1 */,
+				F7F987F7307F895E006592B5 /* NSCacheDemo1Tests */,
 				F7F987D4307F755B006592B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				F7F987D3307F755B006592B5 /* NSCacheDemo1.app */,
+				F7F987F6307F895E006592B5 /* NSCacheDemo1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +81,7 @@
 			children = (
 				F7F987E8307F756C006592B5 /* App */,
 				F7F987EA307F757E006592B5 /* Infrastructure */,
+				F7F98801307F8A04006592B5 /* Models */,
 				F7F987E9307F756F006592B5 /* Screens */,
 			);
 			path = NSCacheDemo1;
@@ -84,6 +113,14 @@
 			path = Infrastructure;
 			sourceTree = "<group>";
 		};
+		F7F98801307F8A04006592B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7F98802307F8A66006592B5 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,6 +139,27 @@
 			productReference = F7F987D3307F755B006592B5 /* NSCacheDemo1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F7F987F5307F895E006592B5 /* NSCacheDemo1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F987FC307F895E006592B5 /* Build configuration list for PBXNativeTarget "NSCacheDemo1Tests" */;
+			buildPhases = (
+				F7F987F2307F895E006592B5 /* Sources */,
+				F7F987F3307F895E006592B5 /* Frameworks */,
+				F7F987F4307F895E006592B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7F987FB307F895E006592B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7F987F7307F895E006592B5 /* NSCacheDemo1Tests */,
+			);
+			name = NSCacheDemo1Tests;
+			productName = NSCacheDemo1Tests;
+			productReference = F7F987F6307F895E006592B5 /* NSCacheDemo1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -114,6 +172,10 @@
 				TargetAttributes = {
 					F7F987D2307F755B006592B5 = {
 						CreatedOnToolsVersion = 27.0;
+					};
+					F7F987F5307F895E006592B5 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = F7F987D2307F755B006592B5;
 					};
 				};
 			};
@@ -132,6 +194,7 @@
 			projectRoot = "";
 			targets = (
 				F7F987D2307F755B006592B5 /* NSCacheDemo1 */,
+				F7F987F5307F895E006592B5 /* NSCacheDemo1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			files = (
 				F7F987E5307F7568006592B5 /* Assets.xcassets in Resources */,
+			);
+		};
+		F7F987F4307F895E006592B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -153,9 +221,23 @@
 				F7F987E6307F7568006592B5 /* ContentView.swift in Sources */,
 				F7F987EC307F75A1006592B5 /* Cache.swift in Sources */,
 				F7F987E7307F7568006592B5 /* NSCacheDemo1App.swift in Sources */,
+				F7F98803307F8A66006592B5 /* Article.swift in Sources */,
+			);
+		};
+		F7F987F2307F895E006592B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
 			);
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7F987FB307F895E006592B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F987D2307F755B006592B5 /* NSCacheDemo1 */;
+			targetProxy = F7F987FA307F895E006592B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F7F987DC307F755C006592B5 /* Debug configuration for PBXProject "NSCacheDemo1" */ = {
@@ -343,6 +425,48 @@
 			};
 			name = Release;
 		};
+		F7F987FD307F895E006592B5 /* Debug configuration for PBXNativeTarget "NSCacheDemo1Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85373584HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.NSCacheDemo1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSCacheDemo1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NSCacheDemo1";
+			};
+			name = Debug;
+		};
+		F7F987FE307F895E006592B5 /* Release configuration for PBXNativeTarget "NSCacheDemo1Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85373584HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.NSCacheDemo1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSCacheDemo1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NSCacheDemo1";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,6 +483,14 @@
 			buildConfigurations = (
 				F7F987DF307F755C006592B5 /* Debug configuration for PBXNativeTarget "NSCacheDemo1" */,
 				F7F987E0307F755C006592B5 /* Release configuration for PBXNativeTarget "NSCacheDemo1" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F7F987FC307F895E006592B5 /* Build configuration list for PBXNativeTarget "NSCacheDemo1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F987FD307F895E006592B5 /* Debug configuration for PBXNativeTarget "NSCacheDemo1Tests" */,
+				F7F987FE307F895E006592B5 /* Release configuration for PBXNativeTarget "NSCacheDemo1Tests" */,
 			);
 			defaultConfigurationName = Release;
 		};
