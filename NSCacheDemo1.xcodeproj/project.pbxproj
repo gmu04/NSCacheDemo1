@@ -6,17 +6,20 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F7F987E5307F7568006592B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F987E1307F7568006592B5 /* Assets.xcassets */; };
+		F7F987E6307F7568006592B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F987E2307F7568006592B5 /* ContentView.swift */; };
+		F7F987E7307F7568006592B5 /* NSCacheDemo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F987E3307F7568006592B5 /* NSCacheDemo1App.swift */; };
+		F7F987EC307F75A1006592B5 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F987EB307F75A1006592B5 /* Cache.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F7F987D3307F755B006592B5 /* NSCacheDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSCacheDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F987E1307F7568006592B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7F987E2307F7568006592B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7F987E3307F7568006592B5 /* NSCacheDemo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCacheDemo1App.swift; sourceTree = "<group>"; };
+		F7F987EB307F75A1006592B5 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F7F987D5307F755B006592B5 /* NSCacheDemo1 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NSCacheDemo1;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F7F987D0307F755B006592B5 /* Frameworks */ = {
@@ -30,7 +33,7 @@
 		F7F987CA307F755B006592B5 = {
 			isa = PBXGroup;
 			children = (
-				F7F987D5307F755B006592B5 /* NSCacheDemo1 */,
+				F7F987E4307F7568006592B5 /* NSCacheDemo1 */,
 				F7F987D4307F755B006592B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +44,41 @@
 				F7F987D3307F755B006592B5 /* NSCacheDemo1.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F987E4307F7568006592B5 /* NSCacheDemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				F7F987E8307F756C006592B5 /* App */,
+				F7F987EA307F757E006592B5 /* Infrastructure */,
+				F7F987E9307F756F006592B5 /* Screens */,
+			);
+			path = NSCacheDemo1;
+			sourceTree = "<group>";
+		};
+		F7F987E8307F756C006592B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F7F987E1307F7568006592B5 /* Assets.xcassets */,
+				F7F987E3307F7568006592B5 /* NSCacheDemo1App.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		F7F987E9307F756F006592B5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F7F987E2307F7568006592B5 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F7F987EA307F757E006592B5 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				F7F987EB307F75A1006592B5 /* Cache.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,9 +93,6 @@
 				F7F987D1307F755B006592B5 /* Resources */,
 			);
 			buildRules = (
-			);
-			fileSystemSynchronizedGroups = (
-				F7F987D5307F755B006592B5 /* NSCacheDemo1 */,
 			);
 			name = NSCacheDemo1;
 			productName = NSCacheDemo1;
@@ -102,6 +137,7 @@
 		F7F987D1307F755B006592B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				F7F987E5307F7568006592B5 /* Assets.xcassets in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -110,6 +146,9 @@
 		F7F987CF307F755B006592B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				F7F987E6307F7568006592B5 /* ContentView.swift in Sources */,
+				F7F987EC307F75A1006592B5 /* Cache.swift in Sources */,
+				F7F987E7307F7568006592B5 /* NSCacheDemo1App.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
